@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html-css.css">
+    <title>Classes vs IDs</title>
+</head>
+<body class="body">
+    <a href="index.html" rel="home" class="home">Home</a>
+    <h1 class="heading">Classes vs IDs
+
+    </h1>
+    <h2 class="sub">Which One to Use and Why</h2>
+    <h3 class="date">9/09/21</h3>
+        <div class="intro">
+
+        <p>Classes and IDs are both selectors you can use with css. But which one should you use and why?</p>
+        <p>Lets first take a look at classes.</p>
+        <br>
+        <br>
+        
+
+    </div>
+        <div class="classes">
+            <h2 class="topic-heading">Classes</h2>
+            <p>Classes can be used to select an element as defined in the html document. Is is defined in the html document using the following syntax.</p>
+            <img src="screenshots\htmleg1.jpg" alt="classes in html">
+            <p>The same class can be used to select multiple elements or it can be used to select individual elements.</p>
+            <img src="screenshots/htmleg2.jpg" alt="multiple selection vs individual selection">
+            <p>By doing this we can specify a style to be applied to different tags. For example If we wanted to style a p tag, we could select it with ".p" in the css document. But this would apply the style to all of the p tags the same way. What if we wanted to style one p tag one way, but another p tag a different way. The answer is to give the p tag a class.</p>
+            
+            <p>To select a class with css, we use the following notation.</p>
+            <img src="screenshots/csseg1.jpg" alt="css selection">
+
+            <p>This will select all the elements that have the given class name.</p>
+            <p class="handy-hint-heading">Handy Hint:</p>
+            <p class="handy-hint">You can create a div with a class in vs code by simply typing ".the class name you want for the div here" in an html document and VS Code will automatically create it! </p>
+        </div> 
+        <div>
+            <h2 class="topic-heading">IDs</h2>
+            <p>IDs work in a similar way to classes but an ID attribute should only be applied to a single element. Therefore when an ID is applied to an element in html, it can be selected and styled with css.</p>
+            <p>A ID attribute has a higher selection hierachy than a class. What this means is that if an element was assigned an ID, and then assigned a class, or vice versa, the ID attribute will be the selector that will apply the style to the element, not the class, (regardless of the order application in the html document.) </p>
+            <p>This is useful when it is important that a specific style is applied to a specific element.</p>
+            <p>IDs are assigned in html using the following syntax</p>
+            <img src="screenshots/idhtml.jpg" alt="html ID assign">
+            <p>IDs are selected in css using the following syntax</p>
+            <img src="screenshots/idcss.jpg" alt="css ID selection">
+
+        </div>
+        <a href="#top" class="back-to-top">Back to top</a>   
+</body>
+</html>
