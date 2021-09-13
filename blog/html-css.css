@@ -59,6 +59,21 @@ p {
 .handy-hint {
   font-style: italic;
 }
+li {
+  color: #a4a3a3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+
+}
+.list {
+  color: #a4a3a3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+
+}
+
+
 .back-to-top {
   color: #a4a3a3;
 }
