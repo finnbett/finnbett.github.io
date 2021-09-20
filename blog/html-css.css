@@ -12,7 +12,9 @@
   font-size: 50px;
   font-weight: 800;
   border-bottom: #a4a3a3 solid 3px;
+  border-top: #a4a3a3 solid 3px;
   padding-bottom: 1em;
+  padding-top: 1em;
 }
 .home {
   text-align: left;
@@ -83,4 +85,11 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
 
+}
+.link {
+  color: #a4a3a3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link:hover{
+  color: white;
 }
