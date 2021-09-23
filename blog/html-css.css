@@ -7,12 +7,12 @@
 }
 
 .heading {
-  color: #a4a3a3;
+  color: #9CDCFE;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   font-weight: 800;
-  border-bottom: #a4a3a3 solid 3px;
-  border-top: #a4a3a3 solid 3px;
+  border-bottom: #CE9278 solid 3px;
+  border-top: #CE9278 solid 3px;
   padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -28,12 +28,12 @@
     color: white;
 }
 .sub {
-  color: #a4a3a3;
+  color: #D7BA7D;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-  color: #a4a3a3;
+  color: #D4D4D4;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   padding-bottom: 2em;
@@ -63,7 +63,7 @@ p {
   font-style: italic;
 }
 li {
-  color: #a4a3a3;
+  color: #D4D4D4;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 
